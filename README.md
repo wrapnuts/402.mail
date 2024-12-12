@@ -68,7 +68,7 @@ chmod 700 402.sh run.sh mutt.sh
 ~$ bash mutt.sh
 ```
 3. Receive a mail with a cashu string in its body, e.g.
-+ --header 'Subject: Lets test cashu'
-+ --body 'hi, this is a test mail. Will this mail get forwarded to my inbox if I add a micro-payment? cashuBo2F0gaJhaUgAdZ4[...]'
++ header 'Subject: Lets test cashu'
++ body 'This is a test. Will this mail get forwarded to my inbox if I add a micro-payment? cashuBo2F0gaJhaUgAdZ4[...]'
    
 5. If both loops run.sh & mutt.sh are running, then the above mail should be forwarded to your inbox by your specified **alias** in the **muttrc**
