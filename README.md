@@ -34,7 +34,7 @@ pip install cashu
 ```bash
 cashu info
 ```
-5. Test mutt & edit its config located in .mutt/muttrc - use the file in **config4mutt/** as a reference to overwrite your config
+5. Test mutt & use the file in this repo's folder **config4mutt/** as a reference to overwrite your config located in **.mutt/muttrc**
 
 ```bash
 mutt --version
@@ -50,7 +50,7 @@ git clone https://github.com/wrapnuts/402.mail.git
 2. Set permissions
 
 ```bash
-chmod 700
+chmod 700 402.sh run.sh mutt.sh
 ```
 
 ## Test flight
