@@ -14,6 +14,7 @@ The length of each requirement indicates how difficult it is to fulfill. \
 **III.** A trustworthy mint that is connected to your cashu wallet. \
 **IV.** Someome who is willing to send you mail with a micro-payment attached, i.e. payment required mail. \ 
 
+## Dependencies 
 1. Install dependencies with apt:
 
 ```bash
@@ -76,8 +77,8 @@ chmod 700 402.sh run.sh mutt.sh
 3. Receive a mail with a cashu string in its body, e.g.
 + header 'Subject: Lets test cashu'
 + body 'This is a test. Will this mail get forwarded to my inbox if I add a micro-payment? cashuBo2F0gaJhaUgAdZ4[...]'
-   
-5. If both loops run.sh & mutt.sh are running, then the above mail should be forwarded to your inbox by your specified **alias** in the **muttrc**
+\  
+4. If both loops run.sh & mutt.sh are running, then the above mail should be forwarded to your inbox by your specified **alias** in the **muttrc**
 
 ## Disclaimer
 The author is NOT a cryptographer and this work has not been reviewed. This means that there is very likely a fatal flaw somewhere. Wrapnuts and Cashu are still experimental and not production-ready.
