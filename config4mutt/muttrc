@@ -1,5 +1,5 @@
 # About Me. Please fill in your mail credentials. Note that, you need a subfolder for your payment required mail, i.e. INBOX/402
-set realname = '<your.name>'
+set realname = '<your.fake.name>'
 set from = '<your.email@provider.com>'
 set use_from = yes
 set envelope_from = yes
