@@ -2,7 +2,7 @@
 These docs showcase how payment required mail was successfully implemented as a proof of concept. 
 
 ## Sieve rules
-You need a mail provider that lets you create sieve rules:
+You need a mail provider that lets you **create sieve rules**:
 
 **1.** A rule that puts incoming mail into a subfolder "402", i.e. payment required
 ![](https://github.com/wrapnuts/402.mail/blob/main/docs/402-sieve-rule.png)
