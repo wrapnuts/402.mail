@@ -57,6 +57,8 @@ chmod 700 402.sh run.sh mutt.sh
 ```bash
 ~$ ls 402.sh cashu_venv  mutt.sh  run.sh
 ```
+4. Create sieve rules for your mail account, according to the [docs.md](https://github.com/wrapnuts/402.mail/tree/main/docs/DOCS.md)
+   
 ## Test flight
 
 1. Open a shell & run
