@@ -1,0 +1,29 @@
+# About Me. Please fill in your mail credentials. Note that, you need a subfolder for your payment required mail, i.e. INBOX/402
+set realname = '<your.name>'
+set from = '<your.email@provider.com>'
+set use_from = yes
+set envelope_from = yes
+
+# My credentials
+set smtp_url = 'smtps://<your.email@provider.com> <your.email@provider.com>@smtp.<provider.com>:587/'
+set smtp_pass = '<your.superstrong.passwd>'
+set imap_user = '<your.email@provider.com>'
+set imap_pass = '<your.superstrong.passwd>'
+
+# auto-read # these tweaks are very important for mutt.sh to work
+macro index \cb "f\n<down>\n<enter>\nq\q"
+# remove last \q so that no auto quit occurs
+folder-hook . 'push "\cb"'
+
+# My mailboxes
+set folder = 'imaps://imap.<provider.com>:993'
+set spoolfile = '+INBOX/402'
+set postponed = '+[mailbox.org]/Drafts'
+set record = '+[mailbox.org]/Sent Mail'
+set trash = '+[mailbox.org]/Trash'
+set ssl_force_tls = yes
+
+# Where to put the stuff
+set header_cache     = ~/.mutt/cache/headers # store headers
+set message_cachedir = ~/.mutt/cache/bodies  # store bodies
+set certificate_file = ~/.mutt/certificates  # store certs (touch file)
