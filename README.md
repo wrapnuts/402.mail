@@ -55,6 +55,19 @@ chmod 700 402.sh run.sh mutt.sh
 3. Working directory
 
 ```bash
-~$ 402.sh cashu_venv  mutt.sh  run.sh
+~$ ls 402.sh cashu_venv  mutt.sh  run.sh
 ```
 ## Test flight
+
+1. Open a shell & run
+```bash
+~$ bash run.sh
+```
+2. Open another shell & run
+```bash
+~$ bash mutt.sh
+```
+3. Receive a mail with a cashu string in its body, e.g.
+   --header 'Subject: Lets test cashu'
+   --body 'hi, this is a test mail. Will this mail get forwarded to my inbox if I add this micro-payment? cashuBo2F0gaJhaUgAdZ4_iwazb2FwgaNhYQFhc3hANjNkNjhiOWM0MGIyODkxZWM0MWYxNTc4OGFjNDU2NTc0M2QyZjIxZjkwMTViMDNhODJmZjZmZTE2ZTMxNWMxOGFjWCEDorB3_PgHsZiLWzudB_sbzDBu4bGrT_ybBpT6D4EEyKphbXdodHRwczovLzgzMzMuc3BhY2U6MzMzOGF1Y3NhdA'
+4. If both loops run.sh & mutt.sh are running. The above mail should be forwarded from your subfolder to your inbox 
