@@ -4,16 +4,16 @@ Some scripts & other stuff for activating payment required mail. This is a proof
 ## Roadmap
 - [x] Run mail client on vps & check incoming mail periodically 
 - [x] If new mail includes cashu, forward to inbox
-- [ ] If new mail does not include cashu, auto-respond with "payment required!"
+- [ ] If new mail does not include cashu, auto-respond with "payment required"
 
 ## Requirements
 
-**I.** A vps is not strictly required, but simplfies things if you want activate payment required mail forever. **II.** A mail client on your vps. A cashu wallet, like [Nutshell](https://github.com/cashubtc/nutshell?tab=readme-ov-file). **III.** A trustworthy mint that is connected to your cashu wallet. **IV.** A user who is willing to send you mail with a micro-payment attached, i.e. payment required mail. 
+**I.** A vps is not strictly required, but simplfies things if you want to activate payment required mail forever. **II.** A mail client on your vps. A cashu wallet, like [Nutshell](https://github.com/cashubtc/nutshell?tab=readme-ov-file). **III.** A trustworthy mint that is connected to your cashu wallet. **IV.** A user who is willing to send you mail with a micro-payment attached, i.e. payment required mail. 
 
 1. Install dependencies with apt:
 
 ```bash
-sudo apt install -y python3-pip pkg-config python3.10-venv python3-qrcode
+sudo apt install -y mutt python3-pip pkg-config python3.10-venv python3-qrcode
 ```
 2. Create venv and upgrade pip:
 
@@ -33,6 +33,11 @@ pip install cashu
 
 ```bash
 cashu info
+```
+5. Test mutt & edit its config located in .mutt/muttrc - use the file in **config4mutt/** as a reference to overwrite your config
+
+```bash
+mutt --version
 ```
 
 ## Install 402.mail
