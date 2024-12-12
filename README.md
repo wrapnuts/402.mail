@@ -6,9 +6,9 @@ Some scripts & other stuff for activating payment required mail. This is a proof
 - [x] If new mail includes cashu, forward to inbox
 - [ ] If new mail does not include cashu, auto-respond with "payment required"
 
-## Requirements
+## Requirements 
 
-**I.** A vps is not strictly required, but simplfies things if you want to activate payment required mail forever. **II.** A mail client on your vps. A cashu wallet, like [Nutshell](https://github.com/cashubtc/nutshell?tab=readme-ov-file). **III.** A trustworthy mint that is connected to your cashu wallet. **IV.** A user who is willing to send you mail with a micro-payment attached, i.e. payment required mail. 
+**I.** A vps is not strictly required, but simplfies things if you want to activate payment required mail forever. **II.** A mail client on your vps, like mutt. A cashu wallet, like [Nutshell](https://github.com/cashubtc/nutshell?tab=readme-ov-file). **III.** A trustworthy mint that is connected to your cashu wallet. **IV.** A user who is willing to send you mail with a micro-payment attached, i.e. payment required mail. 
 
 1. Install dependencies with apt:
 
@@ -34,7 +34,7 @@ pip install cashu
 ```bash
 cashu info
 ```
-5. Test mutt & use the file in this repo's folder **config4mutt/** as a reference to overwrite your config located in **.mutt/muttrc**
+5. Test mutt & use the file in this repo's folder **config4mutt/** to overwrite your config located in **.mutt/muttrc**
 
 ```bash
 mutt --version
@@ -52,5 +52,9 @@ git clone https://github.com/wrapnuts/402.mail.git
 ```bash
 chmod 700 402.sh run.sh mutt.sh
 ```
+3. Working directory
 
+```bash
+~$ 402.sh cashu_venv  mutt.sh  run.sh
+```
 ## Test flight
