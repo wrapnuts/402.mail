@@ -2,16 +2,16 @@
 Some scripts & other stuff for activating payment required mail. This is a proof of concept. 
 
 ## Roadmap
-- [x] Run mail client on vps & check incoming mail periodically 
+- [x] Run mutt client on vps & check incoming mail periodically 
 - [x] If new mail includes cashu, forward to inbox
 - [ ] If new mail does not include cashu, auto-respond with "payment required"
 
 ## Requirements 
 
-**I.** A vps is not strictly required, but simplfies things if you want to activate payment required mail forever. \
-**II.** A mail client on your vps, like mutt. A cashu wallet, like [Nutshell](https://github.com/cashubtc/nutshell?tab=readme-ov-file). \
-**III.** A trustworthy mint that is connected to your cashu wallet. \
-**IV.** A user who is willing to send you mail with a micro-payment attached, i.e. payment required mail. \
+**I.** The mutt client. \
+**II** A cashu wallet, like [Nutshell](https://github.com/cashubtc/nutshell?tab=readme-ov-file). \
+**III.** A mint that is connected to your cashu wallet. \
+**IV.** Someome who is willing to send you mail with a micro-payment attached, i.e. payment required mail.
 
 1. Install dependencies with apt:
 
@@ -77,3 +77,6 @@ chmod 700 402.sh run.sh mutt.sh
 + body 'This is a test. Will this mail get forwarded to my inbox if I add a micro-payment? cashuBo2F0gaJhaUgAdZ4[...]'
    
 5. If both loops run.sh & mutt.sh are running, then the above mail should be forwarded to your inbox by your specified **alias** in the **muttrc**
+
+## Disclaimer
+The author is NOT a cryptographer and this work has not been reviewed. This means that there is very likely a fatal flaw somewhere. Wrapnuts and Cashu are still experimental and not production-ready.
