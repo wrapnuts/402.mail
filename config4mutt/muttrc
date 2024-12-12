@@ -1,4 +1,6 @@
-# About Me. Please fill in your mail credentials. Note that, you need a subfolder for your payment required mail, i.e. INBOX/402
+# You need a subfolder for your payment required mail, i.e. INBOX/402
+
+# About Me. Please fill in your mail credentials.
 set realname = '<your.fake.name>'
 set from = '<your.email@provider.com>'
 set use_from = yes
