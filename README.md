@@ -5,6 +5,7 @@ Some scripts & other stuff for activating payment required mail. This is a proof
 - [x] Run mutt client on vps & check incoming mail periodically 
 - [x] If new mail includes cashu, forward to inbox
 - [ ] If new mail does not include cashu, auto-respond with "payment required"
+- [ ] Change format of forwarded mail
 
 ## Requirements 
 The length of each requirement indicates how difficult it is to fulfill. \
