@@ -7,11 +7,11 @@ Some scripts & other stuff for activating payment required mail. This is a proof
 - [ ] If new mail does not include cashu, auto-respond with "payment required"
 
 ## Requirements 
-
+The length of each requirement indicates how difficult it is to fulfill.
 **I.** The mutt client. \
 **II** A cashu wallet, like [Nutshell](https://github.com/cashubtc/nutshell?tab=readme-ov-file). \
-**III.** A mint that is connected to your cashu wallet. \
-**IV.** Someome who is willing to send you mail with a micro-payment attached, i.e. payment required mail.
+**III.** A trustworthy mint that is connected to your cashu wallet. \
+**IV.** Someome who is willing to send you mail with a micro-payment attached, i.e. payment required mail. \ 
 
 1. Install dependencies with apt:
 
