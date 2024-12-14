@@ -16,4 +16,4 @@ You need a mail provider that lets you **create sieve rules**:
 
 ### ALL INCOMING MAIL is received in the subfolder 402 
 
-### if a micro-payment is attached, it gets forwarded to the INBOX 
+### if a micro-payment is attached, it gets forwarded to the INBOX by the 402.mail.script
