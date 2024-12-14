@@ -83,5 +83,12 @@ chmod 700 402.sh run.sh mutt.sh
   
 4. If both loops run.sh & mutt.sh are running, then the above mail should be forwarded to your inbox by your specified **alias** in the **muttrc**
 
+## GIF of running payment required mail 
+![](https://github.com/wrapnuts/402.mail/blob/main/docs/GIF.402.gif)
+
+#### ALL INCOMING MAIL is received in the subfolder 402
+
+#### if a micro-payment is attached, it gets forwarded to the INBOX by the 402.mail.script
+
 ## Disclaimer
 The author is NOT a cryptographer and this work has not been reviewed. This means that there is very likely a fatal flaw somewhere. Wrapnuts and Cashu are still experimental and not production-ready.
