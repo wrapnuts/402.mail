@@ -14,6 +14,6 @@ You need a mail provider that lets you **create sieve rules**:
 ## GIF of running payment required mail 
 ![](https://github.com/wrapnuts/402.mail/blob/main/docs/GIF.402.gif)
 
-### ALL INCOMING MAIL is received in the <u>subfolder 402</>
+### ALL INCOMING MAIL is received in the <u>subfolder 402</u>
 
 ### if a micro-payment is attached, it gets forwarded to the INBOX by the 402.mail.script
