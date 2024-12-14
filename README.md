@@ -91,4 +91,4 @@ chmod 700 402.sh run.sh mutt.sh
 #### if a micro-payment is attached, it gets forwarded to the INBOX by the 402.mail.script
 
 ## Disclaimer
-The author is NOT a cryptographer and this work has not been reviewed. This means that there is very likely a fatal flaw somewhere. Wrapnuts and Cashu are still experimental and not production-ready.
+The author is NOT a cryptographer and this work has not been reviewed. This means that there is very likely a fatal flaw somewhere. 402.mail and Cashu are still experimental and not production-ready.
