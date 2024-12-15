@@ -19,7 +19,7 @@ The length of each requirement indicates how difficult it is to fulfill. \
 1. Install dependencies with apt:
 
 ```bash
-sudo apt install -y mutt python3-pip pkg-config python3.10-venv python3-qrcode
+sudo apt install mutt swaks python3-pip pkg-config python3-qrcode python3.10-venv -y
 ```
 2. Create venv and upgrade pip:
 
